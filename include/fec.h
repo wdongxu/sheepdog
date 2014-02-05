@@ -107,16 +107,7 @@ void fec_decode(const struct fec *code,
 		uint8_t *const *const outpkts,
 		const int *const index, size_t sz);
 
-/*
- * data stripe <= 1K is the safe value to run VM after some experimentations.
- *
- * Though most OS's file system will operate on 4K block, some softwares like
- * grub will operate on 512 bytes and Linux kernel itself will sometimes
- * operate on 1K blocks. I have tried 4K alignement and centos6 installation
- * failed (grub got screwed) and 1K is probably the biggest value if we want
- * VM to run on erasure coded volume.
- */
-#define SD_EC_DATA_STRIPE_SIZE (1024) /* 1K */
+#define SD_EC_DATA_STRIPE_SIZE SECTOR_SIZE
 #define SD_EC_NR_STRIPE_PER_OBJECT (SD_DATA_OBJ_SIZE / SD_EC_DATA_STRIPE_SIZE)
 #define SD_EC_MAX_STRIP (16)
 
