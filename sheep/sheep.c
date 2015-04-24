@@ -72,6 +72,9 @@ static const char journal_help[] =
 "\nExample:\n\t$ sheep -j dir=/journal,size=1G\n"
 "This tries to use /journal as the journal storage of the size 1G\n";
 
+
+
+
 static const char http_help[] =
 "Available arguments:\n"
 "\thost=: specify a host to communicate with http server (default: localhost)\n"
