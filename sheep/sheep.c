@@ -74,6 +74,10 @@ static const char journal_help[] =
 
 
 
+asdfa
+
+asfdjkasfd
+
 
 static const char http_help[] =
 "Available arguments:\n"
