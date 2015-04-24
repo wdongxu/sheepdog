@@ -67,6 +67,14 @@ static const char zone_help[] =
 
 
 
+
+
+
+
+
+
+
+
 static const char cluster_help[] =
 "Available arguments:\n"
 "\tlocal: use local driver\n"
