@@ -82,6 +82,8 @@ sjfdkjaskf
 
 bad
 
+bad
+
 
 static const char http_help[] =
 "Available arguments:\n"
