@@ -65,6 +65,8 @@ static const char zone_help[] =
 "This tries to set the zone ID of this sheep to 1 and sheepdog won't store\n"
 "more than one copy of any object into this same zone\n";
 
+
+
 static const char cluster_help[] =
 "Available arguments:\n"
 "\tlocal: use local driver\n"
