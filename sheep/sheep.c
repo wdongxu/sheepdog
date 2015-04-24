@@ -78,6 +78,8 @@ static const char zone_help[] =
 
 
 
+bad
+
 
 static const char cluster_help[] =
 "Available arguments:\n"
